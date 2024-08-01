@@ -1,0 +1,79 @@
+.monitor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 300px; /* Set a max-width for better responsiveness */
+}
+
+.updateBox {
+  padding: 20px;
+  width: 100%;
+  background-color: rgb(248, 228, 228); 
+  border: 2px solid rgba(253, 175, 175, 0.877);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  min-height: 160px;
+  overflow: hidden;
+  position: relative;
+}
+
+.updateBox h2 {
+  margin-bottom: 15px;
+  color: rgba(82, 13, 13, 0.877);
+  padding-top: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.updateContent {
+  height: 170px;
+  overflow-y: hidden;
+  position: relative;
+}
+
+.updateBox ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  animation: scroll-up 10s linear infinite;
+}
+
+.updateBox li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.updateBox .updateDate {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.updateDate {
+  width: 100px;
+}
+
+.updateBox .updateText {
+  flex-grow: 1;
+}
+
+@keyframes scroll-up {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: -100%;
+  }
+}
+
+.stand {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 50px solid rgba(253, 175, 175, 0.877);
+  margin-top: -10px;
+}

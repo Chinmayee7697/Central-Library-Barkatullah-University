@@ -1,0 +1,9 @@
+.eContent{
+    text-align: left;
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+
+.eContent ol li{
+    padding: 0.5rem;
+}

@@ -1,0 +1,65 @@
+.homePage {
+    background-color: rgb(255, 254, 254);
+    margin-top: 0;
+    padding-top: 0.2vh;
+    min-height: 100vh; /* Ensure it uses the full viewport height */
+    width: 100%;
+    position: relative; /* Allow the footer to be positioned relative to the page */
+    display: flex;
+    flex-direction: column; /* Ensure column layout */
+    justify-content: space-between; /* Distribute space between elements */
+  }
+  
+  .libraryImg {
+    width: 100vw;
+  }
+  
+  .libraryImg h1 {
+    font-size: 1.6em;
+    color: rgb(51, 51, 105);
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .corousel {
+    width: 100%;
+    max-width: 1200px; /* Set a max-width for better responsiveness */
+    margin: 0 auto;
+  }
+  
+  .images {
+    height: 80vh;
+    width: 100%;
+  }
+  
+  .images img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .homeContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Space between the cards */
+    padding: 20px;
+  }
+  
+  .homeContent > * {
+    flex: 1 1 calc(33.333% - 40px); /* 3 cards per row with some margin */
+    box-sizing: border-box;
+  }
+  
+  @media (max-width: 1200px) {
+    .homeContent > * {
+      flex: 1 1 calc(50% - 40px); /* 2 cards per row */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .homeContent > * {
+      flex: 1 1 calc(100% - 40px); /* 1 card per row */
+    }
+  }
+  

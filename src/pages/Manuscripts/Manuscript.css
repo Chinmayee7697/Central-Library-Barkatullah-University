@@ -1,0 +1,43 @@
+section.manuscriptSection{
+    width: 98vw;
+}
+
+.manuscriptSection ul{
+   text-align: left;
+   list-style-type:none;
+}
+
+.manuContent ul li{
+    padding: 0.2rem;
+    font-size: larger;
+}
+
+.manuContent{
+    display: flex;
+    justify-content: center;
+}
+
+.actionManu{
+    text-align: center;
+}
+
+.photoRight img{
+    width: 43vw;
+}
+
+.photoRight{
+    padding: 10px;
+}
+
+.manuPhotoGallery img{
+    height: 80vh;
+    width: 80vw;
+    margin: 1rem;
+}
+
+.manuPhotoGallery {
+    position: relative;
+    display: inline-block;
+  }
+  
+  

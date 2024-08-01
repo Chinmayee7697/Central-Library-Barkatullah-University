@@ -1,0 +1,39 @@
+.subfooter{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    background-color: rgba(82, 13, 13, 0.877);
+    color: white;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+.adminlogin, .socialLinks {
+    position: relative;
+  }
+  
+  .adminlogin a, .socialLinks a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 5px;
+  }
+
+.adminlogin a::after, .socialLinks a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: white;
+    transition: width 0.3s ease, right 0.3s ease;
+  }
+  
+  .adminlogin a:hover::after, .socialLinks a:hover::after {
+    width: 100%;
+    right: 0;
+  }
