@@ -34,7 +34,8 @@ Open Terminal and run the following commands:
    ```bash
      npm install
 
-![Screenshot 2024-08-01 195529](https://github.com/user-attachments/assets/8c36a736-54e7-42ec-b543-0bcbd7b34432)
+![Screenshot 2024-08-01 195529](https://github.com/user-attachments/assets/c264b5e3-1c8d-434c-b12f-35f082e094b5)
+
 
 ## 3. Available Scripts
 In the project directory, you can run the following scripts:
@@ -92,7 +93,8 @@ The project structure is organized as follows:
 - App.js: Main application component.
 - index.js: Entry point of the React application.
 
-  ![Screenshot 2024-08-01 195700](https://github.com/user-attachments/assets/4bc097be-0838-43b1-9748-accd05e1daf1)
+  ![Screenshot 2024-08-01 195700](https://github.com/user-attachments/assets/a7399412-dd5a-4e78-9f9d-86c7d5dd0671)
+
 
 
 ## 5. Running the Application
@@ -104,15 +106,17 @@ This will start the React development server and open the application in your de
 
     
 
-![Screenshot 2024-08-01 195755](https://github.com/user-attachments/assets/8d1f2fc6-37e4-4492-9ce6-9934b75537d0)
+![Screenshot 2024-08-01 195755](https://github.com/user-attachments/assets/6df8d69b-82bd-4111-ab2f-b9981d80843d)
+
 
 
 
 ## 6. For Updating the Update Box content
     Go to file updates.json and edit the date and content section written in the code format
     updates.json file is present under src/components/UpdateBox
-    
-![Screenshot 2024-08-01 194434](https://github.com/user-attachments/assets/5a9808a1-2624-4480-ae71-d6f97dc998e2)
+
+![Screenshot 2024-08-01 194434](https://github.com/user-attachments/assets/212226f5-d291-4a3d-8f0e-9c7520b15b4a)
+
 
 Open the link of your localhost and you can see the website
 
