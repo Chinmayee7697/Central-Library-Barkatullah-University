@@ -11,7 +11,7 @@ export default function Footer() {
       <SubFooter />
         <p>
           Copyright © BU Bhopal {currentYear}. All Rights Reserved. <br />
-          Designed, Developed & Maintained by <strong>Central Library, BU </strong>
+          Designed, Developed & Maintained by <strong><a href="https://www.linkedin.com/in/chinmayee-sharma-6252b8225/" style={{ color: 'black' }}> Chinmayee Sharma </a></strong>
         </p>
       
     </div>

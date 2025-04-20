@@ -31,9 +31,9 @@ export default function Home() {
           <div className='images'>
             <img src="../img/LibraryStaff.jpg" alt="Library Image 6" />
           </div>
-          <div className='images'>
+          {/* <div className='images'>
             <img src="../img/20240702_130111.jpg" alt="Library Image 7" />
-          </div>
+          </div> */}
           <div className='images'>
             <img src="../img/LibraryImg.jpg" alt="Library Image 8" />
           </div>
