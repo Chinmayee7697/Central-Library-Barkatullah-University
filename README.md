@@ -129,3 +129,7 @@ Open the link of your localhost and you can see the website
 © 2024 Central Library, Barkatullah University. All rights reserved.
 
 Unauthorized copying, distribution, or modification of this software is strictly prohibited. For permissions beyond the scope of this license, please contact the Central Library BU Staff. All trademarks, service marks, trade names, product names, and logos appearing on the site are the property of their respective owners.
+
+## 9. Live Project
+This website is live on [https://central-library-barkatullah-university-1.onrender.com/](https://central-library-barkatullah-university-1.onrender.com/).
+
